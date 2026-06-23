@@ -1,4 +1,4 @@
-# ⚡ NeuroStrike — AI-Powered Home SOC Lab
+#  NeuroStrike — AI-Powered Home SOC Lab
 
 > A fully operational Security Operations Center (SOC) lab built from scratch, integrating attack simulation, log ingestion, SIEM alerting, and AI-driven threat investigation.
 
@@ -8,7 +8,7 @@
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
 ┌─────────────────┐
@@ -37,7 +37,7 @@
 
 ---
 
-## 🎯 Project Goals
+## Project Goals
 
 - Build a realistic home SOC lab simulating enterprise-level threat detection
 - Integrate multiple security tools into a unified detection pipeline
@@ -46,7 +46,7 @@
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Component | Tool | Purpose |
 |-----------|------|---------|
@@ -64,7 +64,7 @@
 
 ---
 
-## 📊 Lab Network
+## Lab Network
 
 | VM | IP Address | Role |
 |----|-----------|------|
@@ -75,9 +75,7 @@
 
 ---
 
-## 🚀 Phase 1 — Splunk + AiSOC Pipeline (Complete ✅)
-
-### What Was Built
+## What Was Built
 - Deployed Splunk Enterprise with HTTP Event Collector (HEC)
 - Deployed AiSOC with 15+ Docker microservices
 - Configured Kafka message bus for event streaming
@@ -85,28 +83,20 @@
 - Integrated Anthropic Claude API for AI-powered alert processing
 - Achieved end-to-end pipeline: **Attack → Splunk → Kafka → AiSOC → Dashboard**
 
-### Pipeline Flow
+## Pipeline Flow
 ```
 Kali Attack → Target Server Logs → Splunk HEC → Kafka (aisoc.raw_events)
     → Alert Fusion Service → aisoc.alerts.fused → PostgreSQL → AiSOC Dashboard
 ```
 
-### Key Achievements
-- ✅ 5 Critical alerts generated and visible in AiSOC dashboard
-- ✅ MITRE ATT&CK tactics mapped automatically
-- ✅ AI-powered alert triage with confidence scoring
-- ✅ Real-time live feed of security events
-- ✅ Full pipeline operational with Splunk SIEM connector
+## Key Achievements
+- 5 Critical alerts generated and visible in AiSOC dashboard
+-  MITRE ATT&CK tactics mapped automatically
+-  AI-powered alert triage with confidence scoring
+-  Real-time live feed of security events
+-  Full pipeline operational with Splunk SIEM connector
 
----
 
-## 🔮 Phase 2 — ELK Stack Migration (Planned)
-
-Migrating from Splunk to Elasticsearch/ELK Stack:
-- Replace Splunk with Elasticsearch + Logstash + Kibana
-- Configure Filebeat on target server for log shipping
-- Connect Elasticsearch to AiSOC via OpenSearch connector
-- Build custom detection rules in Kibana
 
 ---
 
@@ -130,8 +120,6 @@ NeuroStrike/
 
 ---
 
-## 🔧 Quick Start
-
 ### Prerequisites
 - Virtualization software (VirtualBox/VMware)
 - Minimum 16GB RAM, 200GB storage
@@ -146,7 +134,7 @@ NeuroStrike/
 
 ---
 
-## 📈 Results
+## Results
 
 | Metric | Value |
 |--------|-------|
@@ -158,7 +146,7 @@ NeuroStrike/
 
 ---
 
-## 👤 Author
+## Author
 
 **John Canady II**
 - GitHub: [@JohnCanadyII](https://github.com/JohnCanadyII)
@@ -166,12 +154,12 @@ NeuroStrike/
 
 ---
 
-## 📄 License
+## License
 
 MIT License — see [LICENSE](LICENSE) for details.
 
 ---
 
-## ⚠️ Disclaimer
+## Disclaimer
 
 This lab is for **educational purposes only**. All attacks are performed in an isolated virtual environment. Never use these techniques against systems you don't own or have explicit permission to test.
