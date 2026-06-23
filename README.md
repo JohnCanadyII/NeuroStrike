@@ -4,7 +4,7 @@
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Status](https://img.shields.io/badge/status-active-brightgreen.svg)
-![Phase](https://img.shields.io/badge/AI/ML%20complete-success.svg)
+![Status](https://img.shields.io/badge/AI/ML%20complete-success.svg)
 
 
 ---
