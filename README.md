@@ -1,4 +1,4 @@
-#  NeuroStrike — AI-Powered Home SOC Lab
+#  NeuroStrike 
 
 > A fully operational Security Operations Center (SOC) lab built from scratch, integrating attack simulation, log ingestion, SIEM alerting, and AI-driven threat investigation.
 
