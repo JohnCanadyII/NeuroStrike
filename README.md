@@ -101,7 +101,7 @@ Kali Attack → Target Server Logs → Splunk HEC → Kafka (aisoc.raw_events)
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 NeuroStrike/
@@ -111,8 +111,7 @@ NeuroStrike/
 │   ├── 02-splunk-setup.md      # Splunk configuration
 │   ├── 03-aisoc-deployment.md  # AiSOC Docker deployment
 │   ├── 04-pipeline-fixes.md    # Troubleshooting & fixes
-│   ├── 05-attack-scenarios.md  # Attack simulation guide
-│   └── 06-elk-migration.md     # Phase 2 ELK migration (planned)
+│   └── 05-attack-scenarios.md  # Attack simulation guide
 ├── screenshots/                 # Lab screenshots
 └── scripts/
     ├── send-test-events.sh     # Send test events to Splunk
