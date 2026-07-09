@@ -26,13 +26,11 @@
          ▼
 ┌─────────────────┐
 │  Splunk SIEM    │  ← Log ingestion via HEC, alert correlation
-│  (192.168.56.30)│
 └────────┬────────┘
          │ alerts via Kafka
          ▼
 ┌─────────────────┐
 │     AiSOC       │  ← AI-powered triage, case management, MITRE ATT&CK mapping
-│  (192.168.56.50)│
 └─────────────────┘
 ```
 
